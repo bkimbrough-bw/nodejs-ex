@@ -1,5 +1,6 @@
 //  OpenShift sample Node application
 var express = require('express'),
+    newrelic = require('newrelic'),
     app     = express(),
     morgan  = require('morgan');
     
